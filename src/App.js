@@ -5,11 +5,13 @@ import Firstbox from './components/Firstbox';
 import Secondbox from './components/Secondbox';
 import Third from './components/Thirdbox';
 import Fourth from './components/Fourth';
+import ParallaxSlider from './components/ParallaxSlider';
 
 function App() {
   return (
     <div className="App">
      <Navbar />
+     <ParallaxSlider />
      <Firstbox />
      <Secondbox />
      <Third />

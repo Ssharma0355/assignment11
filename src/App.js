@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Firstbox from './components/Firstbox';
 import Secondbox from './components/Secondbox';
 import Third from './components/Thirdbox';
+import Fourth from './components/Fourth';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <Firstbox />
      <Secondbox />
      <Third />
+     <Fourth />
     </div>
   );
 }

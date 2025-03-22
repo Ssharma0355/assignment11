@@ -18,7 +18,6 @@ function Third() {
             <img src={c1} alt="" />
             <p>Automated Data Collection</p>
             <span>Our system automates carbon data collection, saving time, reducing errors, and ensuring accurate sustainability reporting.</span>
-
           </div>
         </div>
         <div className="grid-item">

@@ -154,4 +154,57 @@ display: flex;
   /* Aligns content to the right */
   text-align: right;
 }
+.thirdbox{
+  margin: 1rem;
+}
+.third h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.third span{
+  color: #FEAB4F;
+}
+.third p{
+  margin: 1rem 0 2rem 3rem;
+  color: #239C0C;
+  font-weight: 700;
+}
+.grid-box {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 3 columns */
+  grid-template-rows: repeat(2, 1fr);
+  /* 2 rows */
+  gap: 1rem;
+  background-color: #F5F5F8;
+  padding: 1.4rem;
+  border-radius: 1.2rem;
+  /* Space between grid items */
+}
+
+.grid-item {
+  background: #FFFFFF;
+  padding: 1rem;
+  border-radius: 1.1rem;
+  padding-bottom: 2rem;
+}
+.grid-item img{
+  height: auto;
+  width: auto;
+  padding: .5rem;
+  background-color: #D6FFD0;
+  border-radius: .5rem;
+}
+.grid-item>p{
+  font-weight: 700;
+  color: #222222;
+  margin: 1rem 0 2rem 0;
+}
+.grid-item>span{
+  color: #2D2D2D;
+  font-weight: 400;
+}
+
 
